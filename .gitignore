@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Database & generated run artifacts
+*.db
+*.sqlite3
+shadowbuilder.db
+backend/shadowbuilder.db
+artifacts/runs/
+temp_workspaces/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
